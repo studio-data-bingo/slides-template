@@ -112,6 +112,12 @@
     font-weight: lighter;
 }
 
+.reveal p sup{
+    font-size: calc(var(--theme-text-size) - 3px);
+    line-height: calc(var(--theme-text-size) - 30px);
+    font-weight: lighter;
+}
+
 .reveal p em{
     font-style: italic;
 }
