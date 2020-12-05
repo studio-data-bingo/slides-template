@@ -170,6 +170,7 @@
 /*///////// TEMPLATE : INTRO /////////*/
 
 .reveal .intro figure{
+    position: relative;
     grid-column-start:1;
     grid-column-end:4;
     grid-row-start:3;
@@ -190,6 +191,7 @@
 /*///////// TEMPLATE : COL IMG TEXT TEXT /////////*/
 
 .reveal .col-img-text-text figure{
+    position: relative;
     grid-column-start:1;
     grid-column-end:5;
     grid-row-start:2;
@@ -225,6 +227,7 @@
 }
 
 .reveal .col-img-wide-text figure{
+    position: relative;
     grid-column-start:1;
     grid-column-end:9;
     grid-row-start:2;
@@ -269,6 +272,7 @@
 /*///////// TEMPLATE : COL IMG TEXT /////////*/
 
 .reveal .col-img-text figure{
+    position: relative;
     grid-column-start:1;
     grid-column-end:7;
     grid-row-start:2;
@@ -339,6 +343,7 @@
 /*///////// TEMPLATE : MEDIA FULL SIZE /////////*/
 
 .reveal .media-full-size figure{
+    position: relative;
     grid-column-start:1;
     grid-column-end:end;
     grid-row-start:1;
