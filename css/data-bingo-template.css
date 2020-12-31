@@ -163,6 +163,11 @@
     height: 100%;
 }
 
+.reveal iframe{
+    background-color: #EEE;
+    border: none;
+}
+
 .reveal video{
     background-color: #000;
 }
@@ -296,7 +301,7 @@
 
 /*///////// TEMPLATE : COL TEXT TEXT TEXT /////////*/
 
-.reveal .col-text-text-text p{
+.reveal .col-text-text-text p, .reveal .col-text-text-text p a, .reveal .col-text-text-text p em{
     font-family: var(--theme-alternate-font-family);
     font-size: var(--theme-text-monospace-size);
     color:var(--theme-caption-color);
@@ -378,7 +383,6 @@
         --theme-text-size : 10px;
         --theme-text-monospace-size: 10px;
         --theme-figcaption-size : 8px;
-
     }
 }
 
