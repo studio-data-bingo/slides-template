@@ -106,7 +106,7 @@
     font-weight: lighter;
 }
 
-.reveal p, .reveal p em, .reveal p a {
+.reveal p, .reveal p strong, .reveal p em, .reveal p a {
     font-size: var(--theme-text-size);
     line-height: calc(var(--theme-text-size) + 2px);
     font-weight: lighter;
@@ -120,6 +120,10 @@
 
 .reveal p em{
     font-style: italic;
+}
+
+.reveal p strong{
+    font-weight: 500;
 }
 
 .reveal p .highlight{
