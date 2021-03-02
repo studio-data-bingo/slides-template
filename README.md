@@ -5,4 +5,4 @@ Use this template to automatically format your content to the data.bingo design 
 ## License
 MIT licensed
 
-Copyright (C) 2020 Basien Didier, https://data.bingo
+Copyright (c) 2020 Bastien DIDIER, https://data.bingo
